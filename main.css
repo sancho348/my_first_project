@@ -628,391 +628,256 @@ h3 {
 }
 
 
-
+/* -----------1200px ------------ */
 
 @media (max-width: 1200px) {
-    .conteiner {
-        max-width: 970px;
-    }
-    .block_content {
-        max-width: 970px;
-    }
-    .partners_block {
-        max-width: 970px;
-    }
-    .three_block {
-        max-width: 970px;
-    }
-    .Big_conteiner {
-        max-width: 970px;
-    }
-    .conteiner_2 {
-        max-width: 970px;
-    }
-    .conteiner_blue {
-        max-width: 970px;
-    }
-    .conteiner_footer {
-        max-width: 970px;
-    }
+    .conteiner,
+    .block_content,
+    .partners_block,
+    .three_block,
+    .Big_conteiner,
+    .conteiner_2,
+    .conteiner_blue,
+    .conteiner_footer,
     .networks_conteiner {
-        max-width: 970px;
+      max-width: 970px;
     }
-}
+  }
 
+  /* -------------------992px------------- */
+ 
 @media (max-width: 992px) {
-    .conteiner {
-        max-width: 750px;
-    }
-    .block_content {
-        max-width: 750px;
-    }
-    .partners_block {
-        max-width: 750px;
-    }
-    .three_block {
-        max-width: 750px;
-    }
-    .Big_conteiner {
-        max-width: 750px;
-    }
-    .conteiner_2 {
-        max-width: 750px;
-    }
-    .conteiner_blue {
-        max-width: 750px;
-    }
-    .conteiner_footer {
-        max-width: 750px;
-    }
+    .conteiner,
+    .block_content,
+    .partners_block,
+    .three_block,
+    .Big_conteiner,
+    .conteiner_2,
+    .conteiner_blue,
+    .conteiner_footer,
     .networks_conteiner {
-        max-width: 750px;
-    }
-    .text_information h1 {
-        font-size: 40px;
-    }
-    .title4 h4 {
-        font-size: 35px;
-    }
-    .about h5 {
-        font-size: 35px;
-    }
-    .text_set h6 {
-        font-size: 35px;
-    }
-    .text_set p {
-        font-size: 16px;
-    }
-    .images_and_text {
-        gap: 100px;
-    }
-    .text_block h6 {
-        font-size: 20px;
-    }
-    .automated h6 {
-        font-size: 35px;
-    }
-    .automated p {
-        font-size: 15px;
-    }
-    .get_smarted h6 {
-        font-size: 35px;
-    }
-    .get_smarted a {
-        font-size: 15px;
-    }
-    .three_colors h6 {
-        font-size: 20px;
-    }
-    .conteiner_blue h6 {
-        font-size: 35px;
-    }
-    .conteiner_blue p {
-        font-size: 15px;
-    }
-    .info_admin a {
-        font-size: 15px;
-    }
-
-
-}
-
-@media (max-width: 767px) {
-    .conteiner {
-        max-width: 576px;
-    }
-    .block_content {
-        max-width: 576px;
-        margin-top: 50px;
-    }
-    .partners_block {
-        max-width: 576px;
-    }
-    .three_block {
-        max-width: 576px;
-    }
-    .Big_conteiner {
-        max-width: 576px;
-    }
-    .conteiner_2 {
-        max-width: 576px;
-    }
-    .conteiner_blue {
-        max-width: 576px;
-    }
-    .conteiner_footer {
-        max-width: 576px;
-    }
-    .networks_conteiner {
-        max-width: 576px;
-    }
-    .images_partners {
-        gap: 40px;
-    }
-    .text_information h1 {
-        font-size: 30px;
-    }
-    .text_information p {
-        font-size: 15px;
-    }
-    nav a {
-        font-size: 12px;
-    }
-    .button a {
-        font-size: 12px;
-    }
-    #button_blue {
-        font-size: 12px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    
-    header .logo_with_nav nav {
-        gap: 15px;
-      }
-    
-
-    .button {
-        gap: 5px;
-    }
-
-    .text_information button {
-        font-size: 12px;
-        padding: 8px 20px;
-    }
-    .text_information a {
-        margin-left: 10px;
-        font-size: 12px;
-    }
-    .images_partners img {
-        max-width: 100%;
-        height: auto;
-    }
-    .three_block h3 {
-        font-size: 20px;
-    }
-    .three_block p {
-        font-size: 12px;
-    }
-    
-    .partners_block h2 {
-        font-size: 18px;
-        margin-top: 80px;
-    }
-    .images_partners {
-        gap: 20px;
-    }
-    .title4 h4 {
-        font-size: 25px;
-    }
-    .info-item p {
-        font-size: 12px;
-    }
-    .about h5 {
-        font-size: 25px;
-    }
-    .place p {
-        font-size: 12px;
-    }
-    .text_set h6 {
-        font-size: 25px;
-    }
-    .text_set p {
-        font-size: 12px;
-    }
-    .text_set li {
-        font-size: 12px;
-    }
-    .text_set a {
-        font-size: 12px;
-    }
-    .automated h6 {
-        font-size: 25px;
-        margin-top: 60px;
-    }
-
-    .automated p {
-        font-size: 12px;
-    }
-    .text_block h6 {
-        font-size: 12px;
-    }
-    .text_block p {
-        font-size: 12px;
-    }
-    .get_smarted h6 {
-        font-size: 25px;
-    }
-    .get_smarted a {
-        font-size: 12px;
-    }
-    .three_colors h6 {
-        font-size: 15px;
-    }
-    .three_colors p {
-        font-size: 12px;
-    }
-    .three_colors p:first-of-type {
-        font-size: 10px;
-    }
-    .get_smarted {
-        padding-top: 50px;
-    }
-    .text_4_block {
-        margin-bottom: 60px;
-        margin-top: 50px;
-    }
-    .text_4_block {
-        font-size: 25px;
-    }
-    .conteiner_blue h6 {
-        font-size: 25px;
-    }
-    .conteiner_blue p {
-        font-size: 12px;
-    }
-    .conteiner_blue a {
-        font-size: 12px;
-    }
-    .conteiner_blue {
-        padding-left: 40px;
-    }
-    .info_admin h6 {
-        font-size: 12px;
-    }
-    .info_admin a {
-        font-size: 12px;
-    }
-    .Newsletter h6 {
-        font-size: 12px;
-    }
-    .Newsletter p {
-        font-size: 12px;
-    }
-    .networks p {
-        font-size: 10px;
-    }
-    .Newsletter button {
-        font-size: 10px;
-    }
-    .colors_block {
-        padding-bottom: 80px;
-    }
-    .conteiner_footer {
-        margin-top: 60px;
-    }
-    .three_block {
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-    .about {
-        margin-top: 60px;
-        margin-bottom: 60px;
-    }
-     
-}
-
-@media (max-width: 480px) {
-    .conteiner {
-        max-width: none;
-        padding: 15px;
-    }
-    .block_content {
-        max-width: none;
-        padding: 15px;
-    }
-    .partners_block {
-        max-width: none;
-        padding: 15px;
-    }
-    .three_block {
-        max-width: none;
-        padding: 15px;
-    }
-    .Big_conteiner {
-        max-width: none;
-        padding: 15px;
-    }
-    .conteiner_2 {
-        max-width: none;
-        padding: 15px;
-    }
-    .conteiner_blue {
-        max-width: none;
-        padding: 15px;
-    }
-    .conteiner_footer {
-        max-width: none;
-        padding: 15px;
-    }
-    .networks_conteiner {
-        max-width: none;
-        padding: 15px;
-    }
-    .block_content {
-        flex-direction: column;
-    }
-    .images_partners {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    .text_4_block {
-        flex-direction: column;
-    }
-    .three_block {
-        flex-direction: column;
-        margin-bottom: 0;
-        
-    }
-    .yellow_block, .blue_block, .pink_block {
-        width: 100%;
-    }
-    .title4 h4 {
-        padding-top: 40px;
-    }
-    .information_with_images {
-        flex-direction: column;
-    }
-
-    .about {
-        flex-direction: column;
-    }
-    .place {
-        width: 100%;
-    }
-    .images_and_text {
-        flex-direction: column;
-        gap: 10px;
-    }
-    .colors_block {
-        flex-direction: column;
+      max-width: 750px;
     }
   
-}
+    .text_information h1,
+    .title4 h4,
+    .about h5,
+    .text_set h6,
+    .automated h6,
+    .get_smarted h6,
+    .conteiner_blue h6 {
+      font-size: 35px;
+    }
+  
+    .text_set p,
+    .automated p,
+    .conteiner_blue p,
+    .get_smarted a,
+    .info_admin a {
+      font-size: 15px;
+    }
+  
+    .text_block h6,
+    .three_colors h6 {
+      font-size: 20px;
+    }
+  
+    .text_set li,
+    .text_set a {
+      font-size: 16px;
+    }
+  
+    .images_and_text {
+      gap: 100px;
+    }
+  }
 
+  /* -------------767px-------------- */
 
+  @media (max-width: 767px) {
+    .conteiner,
+    .block_content,
+    .partners_block,
+    .three_block,
+    .Big_conteiner,
+    .conteiner_2,
+    .conteiner_blue,
+    .conteiner_footer,
+    .networks_conteiner {
+      max-width: 576px;
+    }
+  
+    .images_partners {
+      gap: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: max-content;
+      margin: 0 auto;
+      
+    }
+  
+    nav a,
+    .button a,
+    #button_blue,
+    .text_information button,
+    .text_information a,
+    .three_block p,
+    .partners_block h2,
+    .info-item p,
+    .place p,
+    .text_set p,
+    .text_set li,
+    .text_set a,
+    .automated p,
+    .text_block h6,
+    .text_block p,
+    .get_smarted a,
+    .three_colors p,
+    .three_colors p:first-of-type,
+    .conteiner_blue p,
+    .conteiner_blue a,
+    .info_admin h6,
+    .info_admin a,
+    .Newsletter h6,
+    .Newsletter p,
+    .networks p,
+    .Newsletter button {
+      font-size: 12px;
+    }
+  
+    .text_information h1 {
+      font-size: 30px;
+    }
+  
+    .text_information p {
+      font-size: 15px;
+    }
+  
+    #button_blue {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    header .logo_with_nav nav {
+      gap: 15px;
+    }
+  
+    .button {
+      gap: 5px;
+    }
+  
+    .text_information button {
+      padding: 8px 20px;
+    }
+  
+    .images_partners img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .three_block h3,
+    .title4 h4,
+    .about h5,
+    .text_set h6,
+    .automated h6,
+    .get_smarted h6,
+    .text_4_block,
+    .conteiner_blue h6 {
+      font-size: 25px;
+    }
+  
+    .get_smarted {
+      padding-top: 50px;
+    }
+  
+    .text_4_block {
+      margin-bottom: 60px;
+      margin-top: 50px;
+    }
+  
+    .colors_block {
+      padding-bottom: 80px;
+    }
+  
+    .conteiner_footer {
+      margin-top: 60px;
+    }
+  
+    .three_block {
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+  
+    .about {
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+  }
+  
+  /* ---------------480px----------- */
 
+  @media (max-width: 480px) {
+    .conteiner,
+    .block_content,
+    .partners_block,
+    .three_block,
+    .Big_conteiner,
+    .conteiner_2,
+    .conteiner_blue,
+    .conteiner_footer,
+    .networks_conteiner {
+      max-width: none;
+      padding: 15px;
+    }
+  
+    .block_content,
+    .text_4_block,
+    .three_block,
+    .information_with_images,
+    .about,
+    .images_and_text,
+    .colors_block {
+      flex-direction: column;
+    }
+  
+    .images_partners {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 150px;
+    }
+  
+    .yellow_block,
+    .blue_block,
+    .pink_block,
+    .place {
+      width: 100%;
+    }
+  
+    .title4 h4 {
+      padding-top: 40px;
+    }
+  
+    .three_block {
+      margin-bottom: 0;
+    }
+  }
+
+  /* --------------------610px--------------- */
+
+  @media (max-width: 610px) {
+    .conteiner,
+    .block_content,
+    .partners_block,
+    .three_block,
+    .Big_conteiner,
+    .conteiner_2,
+    .conteiner_blue,
+    .conteiner_footer,
+    .networks_conteiner {
+      max-width: 450px;
+    }
+
+  }
 
 
 
@@ -1024,7 +889,7 @@ h3 {
   }
   
   /* При малих екранах */
-  @media (max-width: 480px) {
+  @media (max-width: 610px) {
     .burger {
       display: block;
     }
