@@ -1,5 +1,7 @@
 * {
 box-sizing: border-box;
+margin: 0;
+padding: 0;
 
 
 }
@@ -17,6 +19,8 @@ body {
    
   
 }
+
+
 
 header{
     
@@ -96,6 +100,8 @@ nav a:hover{
     margin: 0 auto;
     margin-top: 70px;
 }
+
+
 .text_information button{
     background-color: #0070A0;
     padding: 8px 32px;
@@ -126,7 +132,21 @@ nav a:hover{
    
 }
 
+.images_stiker img {
+    width: 100%;
+    height: auto;
+}
+
 /*-------------PARTNERS_BLOCK-----------------*/
+.partners_block {
+    max-width: 1130px;
+    margin: 0 auto;
+
+}
+
+
+
+
 
 .partners_block h2 {
     display: flex;
@@ -134,7 +154,6 @@ nav a:hover{
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
     font-weight: normal;
-    max-width: 1130px;
     margin: 0 auto;
     margin-top: 120px;
     margin-bottom: 24px;
@@ -148,6 +167,7 @@ nav a:hover{
     gap: 60px;
 }
 
+
 /* -------CONTEINER_three_BLOCK------*/
 .three_block {
     display: flex;
@@ -157,8 +177,10 @@ nav a:hover{
     margin: 0 auto;
     margin-top: 160px;
     margin-bottom: 120px;
-    
 }
+
+
+
 .yellow_block {
     /* width: 355px;
     height: 250px; */
@@ -199,14 +221,15 @@ h3 {
 .yellow_block:hover {
     transform: scale(1.1);
     }
+
     .blue_block:hover {
         transform: scale(1.1);
     }
+    
     .pink_block:hover {
  transform: scale(1.1);
     }
-   
-   
+    
     /*--------BIG_CONTEINER-------*/
    .background_color {
     background-color:#F7F9FA ;
@@ -215,13 +238,14 @@ h3 {
     .Big_conteiner {
         max-width: 1130px;
         margin: 0 auto;
-        
     }
+   
     .title4 {
     }
     .information_with_images {
         display: flex;
         justify-content: space-between;
+
     }
     .information  {
       
@@ -231,13 +255,23 @@ h3 {
     .info-item {
         display: flex;
        gap: 10px;
+       align-items: center;
+    
+       
         
+    }
+    .images_computer img {
+        width: 100%;
+        height: auto;
+
     }
     
     .title4 h4{
         font-family: "Fraunces", serif;
         font-size: 42px;
         padding-top: 79px;
+        margin-bottom: 30px;
+
         
         
     }
@@ -280,6 +314,11 @@ h3 {
     .back_color {
         background-color: #0070A0;
         
+    }
+
+    .images_lamp img {
+        width: 100%;
+        height: auto;
     }
     .images_and_text {
         display: flex;
@@ -334,6 +373,8 @@ h3 {
    margin: 0 auto;
    
   }
+  
+
 
   .text_4_block {
     display: flex;
@@ -352,6 +393,7 @@ h3 {
     font-size: 42px;
     margin: 0 auto;
     margin-top: 120px;
+    margin-bottom: 20px;
   }
   .automated p {
     font-family: "Open Sans", sans-serif;
@@ -426,6 +468,8 @@ h3 {
 }
 .three_colors img {
     margin-bottom: 25px;
+    width: 100%;
+    height: auto;
 }
 
 .conteiner_blue {
@@ -434,10 +478,13 @@ h3 {
     background-color: #E6F7FF;
     padding-left: 64px;
     padding-bottom: 64px;
+    margin-top: 80px;
+
 
 
 
 }
+
 
 .conteiner_blue h6 {
     font-family: "Fraunces", serif;
@@ -451,6 +498,9 @@ h3 {
 .conteiner_blue p {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
+    
+    margin-bottom: 20px;
+
     
 }
 
@@ -466,6 +516,10 @@ h3 {
     display: flex;
     
 }
+.days img {
+    padding-bottom: 20px;
+}
+
 .days p{
     margin-right: 32px;
     font-family: "Open Sans", sans-serif;
@@ -487,9 +541,11 @@ h3 {
     
     margin-top: 127px;
     margin-bottom: 64px;
-
+    
   
 }
+
+
 
 .info_admin ul {
     list-style: none;
@@ -544,17 +600,18 @@ h3 {
     color: #fff;
 }
 
-.line hr {
-    max-width: 1130px;
 
-}
+
 .networks_conteiner {
     max-width: 1130px;
     margin: 0 auto;
 }
+
+
 .networks {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 }
 .networks p {
@@ -569,3 +626,287 @@ h3 {
  .img_networks a {
     text-decoration: none;
 }
+
+
+/* -----------1200px ------------ */
+
+@media (max-width: 1200px) {
+    .conteiner,
+    .block_content,
+    .partners_block,
+    .three_block,
+    .Big_conteiner,
+    .conteiner_2,
+    .conteiner_blue,
+    .conteiner_footer,
+    .networks_conteiner {
+      max-width: 970px;
+    }
+  }
+
+  /* -------------------992px------------- */
+ 
+@media (max-width: 992px) {
+    .conteiner,
+    .block_content,
+    .partners_block,
+    .three_block,
+    .Big_conteiner,
+    .conteiner_2,
+    .conteiner_blue,
+    .conteiner_footer,
+    .networks_conteiner {
+      max-width: 750px;
+    }
+  
+    .text_information h1,
+    .title4 h4,
+    .about h5,
+    .text_set h6,
+    .automated h6,
+    .get_smarted h6,
+    .conteiner_blue h6 {
+      font-size: 35px;
+    }
+  
+    .text_set p,
+    .automated p,
+    .conteiner_blue p,
+    .get_smarted a,
+    .info_admin a {
+      font-size: 15px;
+    }
+  
+    .text_block h6,
+    .three_colors h6 {
+      font-size: 20px;
+    }
+  
+    .text_set li,
+    .text_set a {
+      font-size: 16px;
+    }
+  
+    .images_and_text {
+      gap: 100px;
+    }
+  }
+
+  /* -------------767px-------------- */
+
+  @media (max-width: 767px) {
+    .conteiner,
+    .block_content,
+    .partners_block,
+    .three_block,
+    .Big_conteiner,
+    .conteiner_2,
+    .conteiner_blue,
+    .conteiner_footer,
+    .networks_conteiner {
+      max-width: 576px;
+    }
+  
+    .images_partners {
+      gap: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: max-content;
+      margin: 0 auto;
+      
+    }
+  
+    nav a,
+    .button a,
+    #button_blue,
+    .text_information button,
+    .text_information a,
+    .three_block p,
+    .partners_block h2,
+    .info-item p,
+    .place p,
+    .text_set p,
+    .text_set li,
+    .text_set a,
+    .automated p,
+    .text_block h6,
+    .text_block p,
+    .get_smarted a,
+    .three_colors p,
+    .three_colors p:first-of-type,
+    .conteiner_blue p,
+    .conteiner_blue a,
+    .info_admin h6,
+    .info_admin a,
+    .Newsletter h6,
+    .Newsletter p,
+    .networks p,
+    .Newsletter button {
+      font-size: 12px;
+    }
+  
+    .text_information h1 {
+      font-size: 30px;
+    }
+  
+    .text_information p {
+      font-size: 15px;
+    }
+  
+    #button_blue {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    header .logo_with_nav nav {
+      gap: 15px;
+    }
+  
+    .button {
+      gap: 5px;
+    }
+  
+    .text_information button {
+      padding: 8px 20px;
+    }
+  
+    .images_partners img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .three_block h3,
+    .title4 h4,
+    .about h5,
+    .text_set h6,
+    .automated h6,
+    .get_smarted h6,
+    .text_4_block,
+    .conteiner_blue h6 {
+      font-size: 25px;
+    }
+  
+    .get_smarted {
+      padding-top: 50px;
+    }
+  
+    .text_4_block {
+      margin-bottom: 60px;
+      margin-top: 50px;
+    }
+  
+    .colors_block {
+      padding-bottom: 80px;
+    }
+  
+    .conteiner_footer {
+      margin-top: 60px;
+    }
+  
+    .three_block {
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+  
+    .about {
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+  }
+  
+  /* ---------------480px----------- */
+
+  @media (max-width: 480px) {
+    .conteiner,
+    .block_content,
+    .partners_block,
+    .three_block,
+    .Big_conteiner,
+    .conteiner_2,
+    .conteiner_blue,
+    .conteiner_footer,
+    .networks_conteiner {
+      max-width: none;
+      padding: 15px;
+    }
+  
+    .block_content,
+    .text_4_block,
+    .three_block,
+    .information_with_images,
+    .about,
+    .images_and_text,
+    .colors_block {
+      flex-direction: column;
+    }
+  
+    .images_partners {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 150px;
+    }
+  
+    .yellow_block,
+    .blue_block,
+    .pink_block,
+    .place {
+      width: 100%;
+    }
+  
+    .title4 h4 {
+      padding-top: 40px;
+    }
+  
+    .three_block {
+      margin-bottom: 0;
+    }
+  }
+
+  /* --------------------610px--------------- */
+
+  @media (max-width: 610px) {
+    .conteiner,
+    .block_content,
+    .partners_block,
+    .three_block,
+    .Big_conteiner,
+    .conteiner_2,
+    .conteiner_blue,
+    .conteiner_footer,
+    .networks_conteiner {
+      max-width: 450px;
+    }
+
+  }
+
+
+
+/* Icon burger */
+.burger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  /* При малих екранах */
+  @media (max-width: 610px) {
+    .burger {
+      display: block;
+    }
+  
+    .nav {
+      display: none;
+      flex-direction: column;
+      background-color: #ebebeb;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+      z-index: 100;
+    }
+  
+    .nav.active {
+      display: flex;
+    }
+  }

@@ -20,8 +20,8 @@
      <div class="logo_with_nav">
       <div class="logo">  <img src="images_first/image-logo.png" alt="logo">
       </div>
-       
-        <nav>
+       <div class="burger">&#9776;</div>
+        <nav class="nav">
         <a href="">Features</a>
         <a href="">Pricing</a>
         <a href="">Integrations</a>
@@ -307,7 +307,7 @@
         <div class="Newsletter">
             <h6>Newsletter</h6>
             <p>Sign up for the latest <br> news, company insights, <br> and Whirl updates.</p>
-            <input type="sabmit" placeholder="Your email">
+            <input type="submit" placeholder="Your email">
             <button>Send</button>
         </div>
        
@@ -325,8 +325,7 @@
     </div>
 </footer>
 
-<div class="line">
-    <hr>
+
 </div>
 
 <div class="networks_conteiner">
@@ -352,7 +351,14 @@
 
 
 
+<script>
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav');
 
+    burger.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+  </script>
 
 </body>
 </html>
